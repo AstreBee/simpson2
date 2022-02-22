@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(233, 233, 97);
+}
+main{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    padding: 1em;
+    justify-content: space-between;
+}
+#wrapper{
+    margin: auto;
+    max-width: 1024px;
+}
+
+/* titre oooh pinaise!... */
+h1{text-align: center;
+    margin: 0%;
+}
+/* Titre les simpsons  */
+h2{
+    color: rgb(211, 211, 116);
+}
+
+figure{
+  text-align: center;
+  margin: 0%;
+}
+
+.white{
+    padding: 1em 0em;
+ }
+
+
+.simpsonPicture{
+    width: 100%;
+    vertical-align: top;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.color{
+   color: white;
+   background-color: rgb(78, 78, 194);
+}
+
+/* Nav */
+nav{
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 1px dashed white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.link1, .link2, .link3, .link4{
+    flex: auto;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+/* End nav */
+
+.movie{
+    display: flex;
+}
+
+/* Photos de simpsons movie X3 */
+.simpsonmovie{
+    text-align: justify;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.divmovie{
+    padding: 5px;
+}
+
+/* Matt Groening part */
+.biography{                      
+    color: white;
+    height: fit-content;
+    width: 100%;
+}   
+
+aside{
+    background-color: steelblue;
+    height: fit-content;
+    width: 23%;
+    padding: 10px 1.5em;
+    margin-top: 3em;
+}
+
+.matt{
+    text-align: justify;
+    padding-top: 10px;
+}
+
+
+article{
+    text-align: justify;
+    justify-content: space-between;
+    height: fit-content;
+    width: 75%;
+}
+
+.picture2{
+    width: 100%;
+    border: 1px solid white;
+}
+/* End Matt Groening part */
+
+footer{
+    color: white;
+    background-color: darkblue;
+    text-align: center; 
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
